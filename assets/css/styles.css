@@ -1,31 +1,22 @@
-.header{
-	width: 90%;
-	height:10%;
-	background: #AAAAAA;
-	color: white;
-}
+
 .col-md-5{
-	font-size: 38px;
-	text-align: center;
-}
-.header .col-md-1{
-	font-size: 20px;
-	text-align: center;
-    padding: 13px 0px;
+  font-size: 38px;
+  text-align: center;
 }
 .main{
 	padding-bottom:60px;
 	width: 90%;
-    background-image: url(wall.png);
-    background-size: contain;
-    height: 700px;
+  background-image: url(wall.png);
+  background-size: contain;
+  height: auto;
+  min-height: 700px;
 }
 .img{
     zoom: 30%;
     margin: 70px;
 }
 .left,.right {
-	margin: 23px 10px; 
+	  margin: 40px 25px;
     padding: 15px;
     border: solid;
     border-radius: 2px; 
