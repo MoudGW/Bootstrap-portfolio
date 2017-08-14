@@ -1,5 +1,5 @@
 
-.col-md-5{
+.right{
   font-size: 38px;
   text-align: center;
 }
@@ -20,6 +20,7 @@
     padding: 15px;
     border: solid;
     border-radius: 2px; 
+    border-radius: 4px;
 }
 .left p{
 	    margin: 18px 0 10px;
@@ -49,4 +50,13 @@ a {
 .btn{
     padding: 20px 40px;
     margin-top: 20px;
+}
+@media screen and (max-width: 992px) {
+  #nav{
+    float: none !important;
+  }
+  #nav > ul{
+    float: none !important;
+  }
+  
 }
